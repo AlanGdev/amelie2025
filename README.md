@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amélie 2025
 
-## Getting Started
+Un site web moderne créé avec Next.js, optimisé pour l'export statique et le déploiement sans back-end.
 
-First, run the development server:
+## Technologies utilisées
+
+- **Next.js 15** avec App Router
+- **JavaScript** (ES6+)
+- **Tailwind CSS v4** pour le styling
+- **ESLint** pour la qualité du code
+- **Export statique** pour déploiement sur CDN
+
+## Démarrage rapide
+
+### Prérequis
+
+- Node.js 18+ installé sur votre machine
+
+### Installation et développement
 
 ```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Build et export
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Construire et exporter le site statique
+npm run export
 
-## Learn More
+# Le site sera généré dans le dossier 'out/'
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Structure du projet
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+amelie2025/
+├── src/
+│   ├── app/          # Pages et layouts (App Router)
+│   └── components/   # Composants réutilisables
+├── public/           # Assets statiques
+├── .github/          # Configuration GitHub
+└── out/              # Site exporté (après build)
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Déploiement
 
-## Deploy on Vercel
+Ce projet est configuré pour l'export statique et peut être déployé sur :
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Vercel** (recommandé)
+- **Netlify**
+- **GitHub Pages**
+- **AWS S3** + CloudFront
+- Tout hébergeur de sites statiques
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Développement
+
+Le projet utilise :
+
+- Hot reloading pour le développement
+- Tailwind CSS pour le styling rapide
+- ESLint pour maintenir la qualité du code
+- Configuration optimisée pour les performances
+
+## En savoir plus
+
+- [Documentation Next.js](https://nextjs.org/docs)
+- [Documentation Tailwind CSS](https://tailwindcss.com/docs)
+- [Tutoriel Next.js](https://nextjs.org/learn)
