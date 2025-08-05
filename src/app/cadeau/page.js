@@ -35,7 +35,7 @@ export default function Home() {
           width={400}
           height={900}
           alt="Joyeux anniversaire Amélie"
-          className="object-cover w-full"
+          className="object-cover"
         />
       </div>
       <h1 className="text-2xl text-center mt-4 font-bold">

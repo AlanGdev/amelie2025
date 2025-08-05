@@ -144,9 +144,9 @@ const variantsParagraphBounce = {
 
 export default function Planning() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 gap-2 text-black dark:text-white">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100 gap-2 text-black">
       <h1 className="text-3xl font-bold my-4">Marrakech dans l&apos;viseur</h1>
-      <div className="p-1 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-white">
         <motion.p
           className="text-lg mb-6 px-4"
           initial="hidden"
@@ -158,7 +158,7 @@ export default function Planning() {
           à 7h tapantes, les paupières engluées dans la mélasse du sommeil, mais
           le coeur déjà là-bas, à{' '}
           <span className="font-bold text-amber-700">Marrakech</span>, à
-          farfouiller dans les <span>c</span>
+          farfouiller dans les <span className="font-bold text-red-500">c</span>
           <span className="font-bold text-blue-600">o</span>
           <span className="font-bold text-emerald-500">u</span>
           <span className="font-bold text-red-500">l</span>
@@ -290,7 +290,7 @@ export default function Planning() {
           />
         </motion.div>
       </div>
-      <div className="p-1 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-white">
         <p className="text-lg mb-6 px-4">
           Le mardi 9, on sort l&apos;artillerie lourde:{' '}
           <strong>Excursion, baby!</strong>
@@ -392,7 +392,7 @@ export default function Planning() {
           />
         </motion.div>
       </div>
-      <div className="p-1 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-white">
         <p className="text-lg mb-6 px-4">
           Le mercredi 10, on jour les guides touristiques de compète.
           <br />
@@ -477,7 +477,7 @@ export default function Planning() {
           quand tu sens que la fête tire sur sa fin.
         </p>
       </div>
-      <div className="p-1 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg bg-white dark:bg-gray-800">
+      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-white">
         <p className="text-lg mb-6 px-4">
           Et jeudi 11, bah ouais, c&apos;est le départ. <br />
           Mais pas tout de suite hein, l&apos;avion c&apos;est à 18h45, donc

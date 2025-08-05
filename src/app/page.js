@@ -10,7 +10,7 @@ export default function Home() {
             width={400}
             height={900}
             alt="Joyeux anniversaire Amélie"
-            className="object-center h-full w-full"
+            className="object-center w-full"
           />
         </div>
       </Link>
