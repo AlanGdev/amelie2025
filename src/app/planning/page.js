@@ -144,7 +144,7 @@ const variantsParagraphBounce = {
 
 export default function Planning() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100 gap-2">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100 gap-2 text-black">
       <h1 className="text-3xl font-bold my-4">Marrakech dans l&apos;viseur</h1>
       <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-white">
         <motion.p
