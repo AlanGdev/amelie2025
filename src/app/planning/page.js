@@ -144,11 +144,11 @@ const variantsParagraphBounce = {
 
 export default function Planning() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-white gap-2 text-white">
-      <h1 className="text-3xl font-bold my-4 text-black">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-yellow-800 text-white">
+      <h1 className="text-3xl font-bold my-4 text-white">
         Marrakech dans l&apos;viseur
       </h1>
-      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-black">
+      <div className="p-1 border border-black  shadow-lg bg-yellow-100 text-black">
         <motion.p
           className="text-lg mb-6 px-4"
           initial="hidden"
@@ -292,7 +292,7 @@ export default function Planning() {
           />
         </motion.div>
       </div>
-      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-black">
+      <div className="p-1 border border-black shadow-lg bg-yellow-100 text-black">
         <p className="text-lg mb-6 px-4">
           Le mardi 9, on sort l&apos;artillerie lourde:{' '}
           <strong>Excursion, baby!</strong>
@@ -394,7 +394,7 @@ export default function Planning() {
           />
         </motion.div>
       </div>
-      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-black">
+      <div className="p-1 border border-black shadow-lg bg-yellow-100 text-black">
         <p className="text-lg mb-6 px-4">
           Le mercredi 10, on jour les guides touristiques de compète.
           <br />
@@ -479,7 +479,7 @@ export default function Planning() {
           quand tu sens que la fête tire sur sa fin.
         </p>
       </div>
-      <div className="p-1 border border-gray-300 rounded-lg shadow-lg bg-black">
+      <div className="p-1 border border-black shadow-lg bg-yellow-100 text-black">
         <p className="text-lg mb-6 px-4">
           Et jeudi 11, bah ouais, c&apos;est le départ. <br />
           Mais pas tout de suite hein, l&apos;avion c&apos;est à 18h45, donc
@@ -522,7 +522,7 @@ export default function Planning() {
           />
         </motion.div>
       </div>
-      <p className="text-lg mb-6 px-4 text-center font-bold text-black">
+      <p className="text-lg mb-6 px-4 text-center font-bold text-white">
         Voilà le topo ma grande fifille!
         <br />
         Cette année encore, on remet ça.
